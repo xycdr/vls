@@ -1,0 +1,76 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "name": "Shoes",
+      "quote": "Calcei thrift sunt testimonium quod qualitas et singularitas non semper pretiosa sunt.",
+      "desc": "Temukan koleksi sepatu thrift berkualitas dengan gaya unik dan harga ramah di kantong. Dari kasual hingga klasik, setiap pasang sepatu memiliki cerita dan karakter tersendiri. Pilihan tepat untuk tampil stylish tanpa menguras dompet",
+      "cover": "./img/articles/articles-1/download.jpg",
+      "bg": "./img/articles/articles-1/article_bg.png",
+      "preview": "./img/articles/articles-1/article_preview_1.jpg",
+      "preview_front": "./img/articles/articles-1/article_preview_2.jpg",
+      "preview_back": null,
+      "sizes": {},
+      "stock": 8,
+      "price": "",
+      "diskon": "",
+      "sticker": "./img/articles/articles-1/article_sticker.jpg",
+      "shopee_path": "https://shorturl.at/VDpxp",
+      "whatsapp_path": "https://wa.me/628875832898",
+      "details": [
+        "Cotton Combed 24s",
+        "Sablon Plastisol",
+        "Gambar Original",
+        "Free Stiker"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Apparel",
+      "quote": "\"I want to be a stronger person\" ~Thorfinn",
+      "desc": "2nd drop Thorfinn dari anime Vinland Saga",
+      "cover": "./img/articles/articles-2/cs.png",
+      "bg": "./img/articles/articles-2/article_bg.png",
+      "preview": "./img/articles/articles-2/article_preview_1.jpg",
+      "preview_front": "./img/articles/articles-2/article_preview_2.jpg",
+      "preview_back": "./img/articles/articles-2/article_preview_3.jpg",
+      "sizes": {
+        "s": 0,
+        "m": 1,
+        "l": 4,
+        "xl": 2
+      },
+      "stock": 7,
+      "price": "120.000 IDR",
+      "diskon": "140.000 IDR",
+      "sticker": "./img/articles/articles-2/article_sticker.png",
+      "shopee_path": "https://shorturl.at/VDpxp",
+      "whatsapp_path": "https://wa.me/628875832898",
+      "details": [
+        "Cotton Combed 24s",
+        "Sablon Plastisol",
+        "Gambar Original",
+        "Free Stiker"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Jacket",
+      "quote": "Coming Soon, di tunggu ya next article dari kami:)",
+      "desc": "Coming Soon, di tunggu ya next article dari kami:)",
+      "cover": "./img/articles/articles-3/cs.png",
+      "bg": "./img/articles/articles-3/article_bg.png",
+      "preview": "./img/articles/articles-3/article_preview_1.jpg",
+      "preview_front": "./img/articles/articles-3/article_preview_2.jpg",
+      "preview_back": "./img/articles/articles-3/article_preview_3.jpg",
+      "sizes": {},
+      "stock": 0,
+      "price": "",
+      "diskon": "",
+      "sticker": "./img/articles/articles-3/article_sticker.jpg",
+      "shopee_path": "https://shorturl.at/VDpxp",
+      "whatsapp_path": "https://wa.me/628875832898",
+      "details": []
+    }
+  ]
+}

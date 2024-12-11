@@ -1,0 +1,57 @@
+.footer-section {
+  
+  padding: 2rem 0; /* Padding untuk atas dan bawah */
+}
+
+.site-footer {
+  max-width: 1200px; /* Batasi lebar untuk layar yang lebih besar */
+  margin: 0 auto; /* Pusatkan footer */
+  padding: 0 1rem; /* Padding horizontal */
+}
+
+.footer-card {
+  margin-bottom: 1rem; /* Jarak antara kartu footer */
+}
+
+.footer-card h2, .footer-card h3 {
+  color: #fff; /* Teks putih untuk judul agar kontras dengan latar belakang */
+}
+
+.footer-card p {
+  color: #ccc; /* Teks lebih terang untuk deskripsi */
+}
+
+.content-list, .social-media-icons {
+  list-style: none; /* Hapus poin peluru */
+  padding: 0; /* Hapus padding */
+  margin: 0; /* Hapus margin */
+}
+
+.content-list li, .social-media-icons li {
+  margin: 0.5rem 0; /* Jarak antara item daftar */
+}
+
+.social-media-icons {
+  display: flex; /* Flexbox untuk ikon media sosial */
+  justify-content: flex-start; /* Menyelaraskan ke kiri */
+  align-items: center; /* Pusatkan ikon secara vertikal */
+  margin-top: 0.5rem; /* Jarak di atas ikon media sosial */
+}
+
+.social-media-icons li {
+  margin: 0 0.5rem; /* Jarak antara ikon */
+}
+
+.social-media-icons a {
+  display: flex; /* Pastikan tautan juga menggunakan flex */
+  align-items: center; /* Pusatkan ikon dalam tautan */
+  text-decoration: none; /* Hapus garis bawah pada tautan */
+  color: inherit; /* Warna teks mengikuti warna induk */
+  font-size: 24px; /* Atur ukuran ikon sesuai kebutuhan */
+}
+
+.copyright-section {
+  margin-top: 3rem; /* Menambahkan jarak di atas bagian hak cipta */
+  text-align: center; /* Pusatkan teks hak cipta */
+  color: #fff; /* Teks putih untuk hak cipta */
+}

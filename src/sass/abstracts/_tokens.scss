@@ -1,0 +1,24 @@
+@use "sass:map";
+@use "./colors" as *;
+@use "./typography" as *;
+@use "./sizes" as *;
+@use "./breakpoints" as *;
+
+$theme: $default;
+
+// contextual
+$color-text-default: $color-neutral-000;
+
+// body
+$body-font-family: $font-family-base;
+$body-font-weight: $font-weight-default;
+$body-font-size: $font-size-300;
+$body-text-color: $color-neutral-000;
+$body-line-height: 1.5;
+$body-height: none;
+$body-overflow: hidden;
+$body-background-image: var(--background-image, "");
+$body-background-repeat: no-repeat;
+$body-background-position: center;
+$body-background-size: cover;
+$body-background-color: $color-primary-600;

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VLS</title>
+    <style>
+      /* Latar Belakang Halaman */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url("images/s2.png") no-repeat center center/cover;
+        overflow: hidden;
+      }
+
+      /* Overlay untuk Efek Blur */
+      .background-blur {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(3px); /* Blur efek */
+        background: rgba(0, 0, 0, 0.2); /* Transparansi untuk kontras */
+        z-index: -1;
+      }
+
+      /* Kontainer Tombol */
+      .stock-link {
+        position: relative;
+        text-align: center;
+        z-index: 1; /* Tombol tetap berada di atas latar belakang */
+      }
+
+      /* Tombol */
+      .btn-stock {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+        padding: 15px 30px;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #001aff, #ffd900, #c40808);
+        background-size: 300% 300%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        animation: gradientAnimation 4s ease infinite;
+      }
+
+      .btn-stock i {
+        margin-right: 10px;
+      }
+
+      .btn-stock:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      /* Animasi Gradien Tombol */
+      @keyframes gradientAnimation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Layer Latar Belakang Blur -->
+    <div class="background-blur"></div>
+
+    <!-- Kontainer Tombol -->
+    <div class="stock-link">
+      <a
+        href="https://www.instagram.com/vlshoes.co"
+        target="_blank"
+        class="btn-stock"
+      >
+        <i class="fa fa-box"></i> Check Stock on Instagram
+      </a>
+    </div>
+
+    <!-- Include Font Awesome for Icons -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

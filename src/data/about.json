@@ -1,0 +1,35 @@
+{
+  "about": {
+    "brand_desc": "Selamat datang di koleksi sepatu thrift kami di Vlshoes.co! Di sini, Anda akan menemukan berbagai pilihan sepatu unik yang mencerminkan gaya dan kepribadian Anda. Setiap pasang sepatu thrift yang kami tawarkan memiliki karakter tersendiri dan siap untuk memberikan sentuhan istimewa pada penampilan Anda.",
+    "contents": [
+      {
+        "id": 1,
+        "title": "Mengapa Memilih Sepatu Thrift?",
+        "content": [
+          "Keunikan: Setiap sepatu thrift adalah barang yang unik, memungkinkan Anda untuk tampil beda dan menonjol di antara keramaian.",
+          "Ramah Lingkungan: Dengan memilih sepatu thrift, Anda berkontribusi pada keberlanjutan dan mengurangi limbah fashion, menjadikan pilihan ini lebih bertanggung jawab.",
+          "Harga Terjangkau: Kami menawarkan sepatu berkualitas dengan harga yang bersahabat, sehingga Anda dapat berinvestasi dalam gaya tanpa harus merogoh kocek dalam-dalam."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Kualitas dan Kenyamanan",
+        "content": [
+          "Material Berkualitas: Setiap sepatu dalam koleksi kami dipilih dengan cermat untuk memastikan kualitas dan kenyamanan, sehingga Anda dapat mengenakannya sepanjang hari tanpa rasa tidak nyaman.",
+          "Desain Menarik: Kami menyediakan berbagai desain, mulai dari yang klasik hingga yang modern, untuk memenuhi selera fashion Anda."
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Visi dan Misi Vlshoes.co",
+        "content": [
+          "Visi: Menjadi pilihan utama bagi pecinta fashion yang mencari sepatu thrift berkualitas dan unik, serta mempromosikan gaya hidup berkelanjutan.",
+          "Misi:",
+          "1. Menyediakan koleksi sepatu thrift yang beragam dan menarik, dengan fokus pada kualitas dan keunikan.",
+          "2. Mendorong kesadaran akan pentingnya fashion berkelanjutan dan dampak positif dari memilih barang bekas.",
+          "3. Membangun komunitas yang saling mendukung dan berbagi inspirasi dalam menemukan gaya pribadi melalui thrift."
+        ]
+      }
+    ]
+  }
+}
